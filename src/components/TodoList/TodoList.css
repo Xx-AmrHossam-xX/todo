@@ -1,0 +1,32 @@
+.list-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem;
+}
+.sort-form {
+  display: flex;
+  align-items: center;
+}
+.sort-form .ant-form-item {
+  margin: 0px;
+}
+.todo-list {
+  list-style: none;
+  padding: 1rem;
+  height: 70vh;
+  overflow-y: scroll;
+}
+.todo-list::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+.todo-list-item {
+  background: #91d5ff;
+  padding: 1em;
+  margin-bottom: 1rem;
+}
+.todo-list-item h3,
+.todo-list-item p {
+  margin: 0px;
+}

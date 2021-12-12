@@ -1,6 +1,6 @@
 import { createStore } from "redux";
-import rootReducer from "./rootReducer"; // Gets the State from the reducer(s)
+import rootReducer from "./rootReducer";
 
-let store = createStore(rootReducer); // Creates the store from the State received from the reducer(s)
+let store = createStore(rootReducer);
 
 export default store;
